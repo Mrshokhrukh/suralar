@@ -1,11 +1,12 @@
-import React from 'react'
+import React from "react";
+import CakeCont from "./components/CakeCont";
 
 const App = () => {
   return (
     <div>
-      <h1>APP</h1>
+      <CakeCont />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
